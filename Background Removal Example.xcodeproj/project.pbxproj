@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		742671A41A60FB6C00B21E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A31A60FB6C00B21E40 /* main.m */; };
+		742671A71A60FB6C00B21E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A61A60FB6C00B21E40 /* AppDelegate.m */; };
+		742671AA1A60FB6C00B21E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A91A60FB6C00B21E40 /* ViewController.m */; };
+		742671AD1A60FB6C00B21E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742671AB1A60FB6C00B21E40 /* Main.storyboard */; };
+		742671AF1A60FB6C00B21E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742671AE1A60FB6C00B21E40 /* Images.xcassets */; };
+		742671B21A60FB6C00B21E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742671B01A60FB6C00B21E40 /* LaunchScreen.xib */; };
+		742671BE1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671BD1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		742671B81A60FB6D00B21E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742671961A60FB6C00B21E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7426719D1A60FB6C00B21E40;
+			remoteInfo = "Background Removal Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7426719E1A60FB6C00B21E40 /* Background Removal Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Removal Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742671A21A60FB6C00B21E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742671A31A60FB6C00B21E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		742671A51A60FB6C00B21E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		742671A61A60FB6C00B21E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		742671A81A60FB6C00B21E40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		742671A91A60FB6C00B21E40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		742671AC1A60FB6C00B21E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		742671AE1A60FB6C00B21E40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		742671B11A60FB6C00B21E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		742671B71A60FB6D00B21E40 /* Background Removal ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Removal ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742671BC1A60FB6D00B21E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		742671BD1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Background_Removal_ExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7426719B1A60FB6C00B21E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742671B41A60FB6D00B21E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742671951A60FB6C00B21E40 = {
+			isa = PBXGroup;
+			children = (
+				742671A01A60FB6C00B21E40 /* Background Removal Example */,
+				742671BA1A60FB6D00B21E40 /* Background Removal ExampleTests */,
+				7426719F1A60FB6C00B21E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7426719F1A60FB6C00B21E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7426719E1A60FB6C00B21E40 /* Background Removal Example.app */,
+				742671B71A60FB6D00B21E40 /* Background Removal ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		742671A01A60FB6C00B21E40 /* Background Removal Example */ = {
+			isa = PBXGroup;
+			children = (
+				742671A51A60FB6C00B21E40 /* AppDelegate.h */,
+				742671A61A60FB6C00B21E40 /* AppDelegate.m */,
+				742671A81A60FB6C00B21E40 /* ViewController.h */,
+				742671A91A60FB6C00B21E40 /* ViewController.m */,
+				742671AB1A60FB6C00B21E40 /* Main.storyboard */,
+				742671AE1A60FB6C00B21E40 /* Images.xcassets */,
+				742671B01A60FB6C00B21E40 /* LaunchScreen.xib */,
+				742671A11A60FB6C00B21E40 /* Supporting Files */,
+			);
+			path = "Background Removal Example";
+			sourceTree = "<group>";
+		};
+		742671A11A60FB6C00B21E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				742671A21A60FB6C00B21E40 /* Info.plist */,
+				742671A31A60FB6C00B21E40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		742671BA1A60FB6D00B21E40 /* Background Removal ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				742671BD1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m */,
+				742671BB1A60FB6D00B21E40 /* Supporting Files */,
+			);
+			path = "Background Removal ExampleTests";
+			sourceTree = "<group>";
+		};
+		742671BB1A60FB6D00B21E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				742671BC1A60FB6D00B21E40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7426719D1A60FB6C00B21E40 /* Background Removal Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742671C11A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal Example" */;
+			buildPhases = (
+				7426719A1A60FB6C00B21E40 /* Sources */,
+				7426719B1A60FB6C00B21E40 /* Frameworks */,
+				7426719C1A60FB6C00B21E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Background Removal Example";
+			productName = "Background Removal Example";
+			productReference = 7426719E1A60FB6C00B21E40 /* Background Removal Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		742671B61A60FB6D00B21E40 /* Background Removal ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742671C41A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal ExampleTests" */;
+			buildPhases = (
+				742671B31A60FB6D00B21E40 /* Sources */,
+				742671B41A60FB6D00B21E40 /* Frameworks */,
+				742671B51A60FB6D00B21E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742671B91A60FB6D00B21E40 /* PBXTargetDependency */,
+			);
+			name = "Background Removal ExampleTests";
+			productName = "Background Removal ExampleTests";
+			productReference = 742671B71A60FB6D00B21E40 /* Background Removal ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742671961A60FB6C00B21E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = darkcl;
+				TargetAttributes = {
+					7426719D1A60FB6C00B21E40 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					742671B61A60FB6D00B21E40 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7426719D1A60FB6C00B21E40;
+					};
+				};
+			};
+			buildConfigurationList = 742671991A60FB6C00B21E40 /* Build configuration list for PBXProject "Background Removal Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742671951A60FB6C00B21E40;
+			productRefGroup = 7426719F1A60FB6C00B21E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7426719D1A60FB6C00B21E40 /* Background Removal Example */,
+				742671B61A60FB6D00B21E40 /* Background Removal ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7426719C1A60FB6C00B21E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742671AD1A60FB6C00B21E40 /* Main.storyboard in Resources */,
+				742671B21A60FB6C00B21E40 /* LaunchScreen.xib in Resources */,
+				742671AF1A60FB6C00B21E40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742671B51A60FB6D00B21E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7426719A1A60FB6C00B21E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742671AA1A60FB6C00B21E40 /* ViewController.m in Sources */,
+				742671A71A60FB6C00B21E40 /* AppDelegate.m in Sources */,
+				742671A41A60FB6C00B21E40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742671B31A60FB6D00B21E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742671BE1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		742671B91A60FB6D00B21E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7426719D1A60FB6C00B21E40 /* Background Removal Example */;
+			targetProxy = 742671B81A60FB6D00B21E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		742671AB1A60FB6C00B21E40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742671AC1A60FB6C00B21E40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		742671B01A60FB6C00B21E40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742671B11A60FB6C00B21E40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		742671BF1A60FB6D00B21E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		742671C01A60FB6D00B21E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742671C21A60FB6D00B21E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Background Removal Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		742671C31A60FB6D00B21E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Background Removal Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		742671C51A60FB6D00B21E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Background Removal ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Removal Example.app/Background Removal Example";
+			};
+			name = Debug;
+		};
+		742671C61A60FB6D00B21E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Background Removal ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Removal Example.app/Background Removal Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742671991A60FB6C00B21E40 /* Build configuration list for PBXProject "Background Removal Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742671BF1A60FB6D00B21E40 /* Debug */,
+				742671C01A60FB6D00B21E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742671C11A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742671C21A60FB6D00B21E40 /* Debug */,
+				742671C31A60FB6D00B21E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		742671C41A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742671C51A60FB6D00B21E40 /* Debug */,
+				742671C61A60FB6D00B21E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742671961A60FB6C00B21E40 /* Project object */;
+}
