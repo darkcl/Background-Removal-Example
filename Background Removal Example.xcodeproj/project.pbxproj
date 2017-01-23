@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612CB06F79D86E316B0F9A92 /* libPods-Background Removal Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A0945B954C5D305B5329B8 /* libPods-Background Removal Example.a */; };
 		742671A41A60FB6C00B21E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A31A60FB6C00B21E40 /* main.m */; };
 		742671A71A60FB6C00B21E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A61A60FB6C00B21E40 /* AppDelegate.m */; };
 		742671AA1A60FB6C00B21E40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671A91A60FB6C00B21E40 /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		742671AF1A60FB6C00B21E40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 742671AE1A60FB6C00B21E40 /* Images.xcassets */; };
 		742671B21A60FB6C00B21E40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742671B01A60FB6C00B21E40 /* LaunchScreen.xib */; };
 		742671BE1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671BD1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m */; };
+		742671CD1A60FB8F00B21E40 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671C81A60FB8F00B21E40 /* LinkedListStack.m */; };
+		742671CE1A60FB8F00B21E40 /* UIImage+FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671CA1A60FB8F00B21E40 /* UIImage+FloodFill.m */; };
+		742671CF1A60FB8F00B21E40 /* UIImage+BackgroundRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = 742671CC1A60FB8F00B21E40 /* UIImage+BackgroundRemove.m */; };
+		742671D11A60FE3500B21E40 /* shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 742671D01A60FE3500B21E40 /* shoes.jpg */; };
+		742671D51A618D6700B21E40 /* shoes1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 742671D41A618D6700B21E40 /* shoes1.jpg */; };
+		7991E494204A4F60ED1BEE36 /* libPods-Background Removal ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE86AD5F368D470A94111B02 /* libPods-Background Removal ExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AF27562FDC4B7C36DA96E02 /* Pods-Background Removal Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Background Removal Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Background Removal Example/Pods-Background Removal Example.release.xcconfig"; sourceTree = "<group>"; };
 		7426719E1A60FB6C00B21E40 /* Background Removal Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Background Removal Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		742671A21A60FB6C00B21E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742671A31A60FB6C00B21E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,19 @@
 		742671B71A60FB6D00B21E40 /* Background Removal ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Background Removal ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		742671BC1A60FB6D00B21E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		742671BD1A60FB6D00B21E40 /* Background_Removal_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Background_Removal_ExampleTests.m; sourceTree = "<group>"; };
+		742671C71A60FB8F00B21E40 /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		742671C81A60FB8F00B21E40 /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		742671C91A60FB8F00B21E40 /* UIImage+FloodFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FloodFill.h"; sourceTree = "<group>"; };
+		742671CA1A60FB8F00B21E40 /* UIImage+FloodFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FloodFill.m"; sourceTree = "<group>"; };
+		742671CB1A60FB8F00B21E40 /* UIImage+BackgroundRemove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BackgroundRemove.h"; sourceTree = "<group>"; };
+		742671CC1A60FB8F00B21E40 /* UIImage+BackgroundRemove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BackgroundRemove.m"; sourceTree = "<group>"; };
+		742671D01A60FE3500B21E40 /* shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shoes.jpg; sourceTree = "<group>"; };
+		742671D41A618D6700B21E40 /* shoes1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = shoes1.jpg; path = "Background Removal Example/shoes1.jpg"; sourceTree = "<group>"; };
+		8C1D876E3EB9D3275842590D /* Pods-Background Removal ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Background Removal ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Background Removal ExampleTests/Pods-Background Removal ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		956FACCB34947F01D211E727 /* Pods-Background Removal Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Background Removal Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Background Removal Example/Pods-Background Removal Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A0945B954C5D305B5329B8 /* libPods-Background Removal Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Background Removal Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CF3BA7B9F062B61CFA2039 /* Pods-Background Removal ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Background Removal ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Background Removal ExampleTests/Pods-Background Removal ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE86AD5F368D470A94111B02 /* libPods-Background Removal ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Background Removal ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612CB06F79D86E316B0F9A92 /* libPods-Background Removal Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +76,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7991E494204A4F60ED1BEE36 /* libPods-Background Removal ExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		623084AC1A796F9833C02090 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				956FACCB34947F01D211E727 /* Pods-Background Removal Example.debug.xcconfig */,
+				3AF27562FDC4B7C36DA96E02 /* Pods-Background Removal Example.release.xcconfig */,
+				A7CF3BA7B9F062B61CFA2039 /* Pods-Background Removal ExampleTests.debug.xcconfig */,
+				8C1D876E3EB9D3275842590D /* Pods-Background Removal ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		742671951A60FB6C00B21E40 = {
 			isa = PBXGroup;
 			children = (
+				742671D41A618D6700B21E40 /* shoes1.jpg */,
 				742671A01A60FB6C00B21E40 /* Background Removal Example */,
 				742671BA1A60FB6D00B21E40 /* Background Removal ExampleTests */,
 				7426719F1A60FB6C00B21E40 /* Products */,
+				623084AC1A796F9833C02090 /* Pods */,
+				E9D25E29E639C483ABC3E10B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +118,13 @@
 		742671A01A60FB6C00B21E40 /* Background Removal Example */ = {
 			isa = PBXGroup;
 			children = (
+				742671D01A60FE3500B21E40 /* shoes.jpg */,
+				742671C71A60FB8F00B21E40 /* LinkedListStack.h */,
+				742671C81A60FB8F00B21E40 /* LinkedListStack.m */,
+				742671C91A60FB8F00B21E40 /* UIImage+FloodFill.h */,
+				742671CA1A60FB8F00B21E40 /* UIImage+FloodFill.m */,
+				742671CB1A60FB8F00B21E40 /* UIImage+BackgroundRemove.h */,
+				742671CC1A60FB8F00B21E40 /* UIImage+BackgroundRemove.m */,
 				742671A51A60FB6C00B21E40 /* AppDelegate.h */,
 				742671A61A60FB6C00B21E40 /* AppDelegate.m */,
 				742671A81A60FB6C00B21E40 /* ViewController.h */,
@@ -119,6 +163,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E9D25E29E639C483ABC3E10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A0945B954C5D305B5329B8 /* libPods-Background Removal Example.a */,
+				AE86AD5F368D470A94111B02 /* libPods-Background Removal ExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742671C11A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal Example" */;
 			buildPhases = (
+				26CE1548575B818B6CE6CFBB /* 📦 Check Pods Manifest.lock */,
 				7426719A1A60FB6C00B21E40 /* Sources */,
 				7426719B1A60FB6C00B21E40 /* Frameworks */,
 				7426719C1A60FB6C00B21E40 /* Resources */,
+				1338138008B1484F94A17D74 /* 📦 Embed Pods Frameworks */,
+				46CBC9E95FABB6C29A8199BA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742671C41A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal ExampleTests" */;
 			buildPhases = (
+				45823B96DB9A437956EA54A2 /* 📦 Check Pods Manifest.lock */,
 				742671B31A60FB6D00B21E40 /* Sources */,
 				742671B41A60FB6D00B21E40 /* Frameworks */,
 				742671B51A60FB6D00B21E40 /* Resources */,
+				6DBD9F64ACA5F334E08AF1A7 /* 📦 Embed Pods Frameworks */,
+				779085BE231562D3F8388BCF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +222,7 @@
 		742671961A60FB6C00B21E40 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = darkcl;
 				TargetAttributes = {
 					7426719D1A60FB6C00B21E40 = {
@@ -199,8 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742671D51A618D6700B21E40 /* shoes1.jpg in Resources */,
 				742671AD1A60FB6C00B21E40 /* Main.storyboard in Resources */,
 				742671B21A60FB6C00B21E40 /* LaunchScreen.xib in Resources */,
+				742671D11A60FE3500B21E40 /* shoes.jpg in Resources */,
 				742671AF1A60FB6C00B21E40 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +275,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1338138008B1484F94A17D74 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Background Removal Example/Pods-Background Removal Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26CE1548575B818B6CE6CFBB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45823B96DB9A437956EA54A2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46CBC9E95FABB6C29A8199BA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Background Removal Example/Pods-Background Removal Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DBD9F64ACA5F334E08AF1A7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Background Removal ExampleTests/Pods-Background Removal ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		779085BE231562D3F8388BCF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Background Removal ExampleTests/Pods-Background Removal ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7426719A1A60FB6C00B21E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				742671AA1A60FB6C00B21E40 /* ViewController.m in Sources */,
+				742671CD1A60FB8F00B21E40 /* LinkedListStack.m in Sources */,
 				742671A71A60FB6C00B21E40 /* AppDelegate.m in Sources */,
+				742671CE1A60FB8F00B21E40 /* UIImage+FloodFill.m in Sources */,
 				742671A41A60FB6C00B21E40 /* main.m in Sources */,
+				742671CF1A60FB8F00B21E40 /* UIImage+BackgroundRemove.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,15 +433,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -317,8 +478,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,6 +489,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -341,26 +505,31 @@
 		};
 		742671C21A60FB6D00B21E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956FACCB34947F01D211E727 /* Pods-Background Removal Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Background Removal Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darkcl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		742671C31A60FB6D00B21E40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF27562FDC4B7C36DA96E02 /* Pods-Background Removal Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Background Removal Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darkcl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		742671C51A60FB6D00B21E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7CF3BA7B9F062B61CFA2039 /* Pods-Background Removal ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -373,6 +542,7 @@
 				);
 				INFOPLIST_FILE = "Background Removal ExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darkcl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Removal Example.app/Background Removal Example";
 			};
@@ -380,6 +550,7 @@
 		};
 		742671C61A60FB6D00B21E40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1D876E3EB9D3275842590D /* Pods-Background Removal ExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -388,6 +559,7 @@
 				);
 				INFOPLIST_FILE = "Background Removal ExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darkcl.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Background Removal Example.app/Background Removal Example";
 			};
@@ -412,6 +584,7 @@
 				742671C31A60FB6D00B21E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		742671C41A60FB6D00B21E40 /* Build configuration list for PBXNativeTarget "Background Removal ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +593,7 @@
 				742671C61A60FB6D00B21E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

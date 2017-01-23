@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+BackgroundRemove.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    fileName = @"shoes1.jpg";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +27,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)resetOrginal:(id)sender {
+    _imageView.image = [UIImage imageNamed:fileName];
+}
+
+- (IBAction)simpleRemoval:(id)sender {
+     _imageView.image = [[UIImage imageNamed:fileName] floodFillRemove];
+}
+
+- (IBAction)gpuImageRemove:(id)sender {
+    _imageView.image = [[UIImage imageNamed:fileName] complexReoveBackground];
+}
 @end

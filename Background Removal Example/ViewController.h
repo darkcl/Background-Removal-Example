@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    UIImage *originalImage;
+    
+    NSString *fileName;
+}
 
+- (IBAction)resetOrginal:(id)sender;
+- (IBAction)simpleRemoval:(id)sender;
+- (IBAction)gpuImageRemove:(id)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
